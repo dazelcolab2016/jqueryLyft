@@ -956,12 +956,12 @@ var lista =[
 ];
 
 function init(){
-    var htmlLista = document.getElementById("lista-paises");
+    var htmlLista = $("#lista-paises");
     for (var i in lista)
         {
         var html = '<li><a href="singup.html"><img src="'+lista[i].imagen+'" class="contry-login">'+lista[i].name +'</a> <span class="contry-codigo">'+lista[i].phone_code+'</span></li>'; 
             
-            htmlLista.innerHTML += html;
+            htmlLista.append(html);
         }
 
 
