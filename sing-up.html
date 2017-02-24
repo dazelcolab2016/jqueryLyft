@@ -1,0 +1,70 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sing-Up</title>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--<link rel="shortcut icon" href="image/favicon.png" type="image/png">-->
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600%7CRoboto:300,400,500" media="all">
+	<link href="css/icomoon.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/queries.css" rel="stylesheet">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body>
+  <header>
+      <div class="container">
+         <div class="row">
+           <div class="col-xs-1 col-sm-1 col-md-1 retornar">
+           
+                <a class="fa fa-chevron-left" href="index.html" style="text-decoration:none; color:black;" > </a>
+           
+           </div>
+            <div class="col-xs-11 col-sm-11 col-md-11">
+               <h1 class="tituloSing">Sing up</h1>
+                <p >Join now for free ride credit</p>
+                <hr class="lineaH" >
+                
+            </div>
+          </div> 
+           <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               
+                <div class="input-group">
+                  <span class="input-group-addon caret " data-toggle="dropdown" id="basic-addon1"><i class="fa fa-user-o" aria-hidden="true"></i><span id="codigo"></span></span>
+                  <input type="text" id="mostrar" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                </div>
+                
+                <div class="input-group">
+                  <span class="input-group-addon caret " data-toggle="dropdown" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                  <input id="email" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <div class="row">
+                <div class="checkbox text-center">
+                  <label><input type="checkbox" value="">I agree to Lyft's</label> <a href="#">Terms of Services</a>
+                </div>
+            </div>
+        
+        </div>
+             
+         </div>
+  </header>  
+  <section>
+      <div class="container">
+          <div class="row">
+              <div class=" col-xs-12 col-sm-12 col-md-10 col-md-offet-2 text-center albutton text-center">
+                  <button type="button" class="btn btn-lg alinear " onclick="validate()">Next</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/validate.js"> </script>
+</body>
+</html>
