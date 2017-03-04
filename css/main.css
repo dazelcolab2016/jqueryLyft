@@ -120,10 +120,11 @@ section .albutton
 p
 {
     padding: 0px;
-    margin: 0px;
+    margin-left: 20px;
     color: darkgray;
     text-align: left;
     align-items: center;
+    display: inline-block
 }
 p i
 {
@@ -136,5 +137,11 @@ small
 {margin-top:  10px;
 margin-left: 30px;}
 
-
+.btnEleccion
+{
+ height: 50px;
+ border-radius: 10px;
+ padding-top: 20px;
+     
+}
 
